@@ -77,8 +77,8 @@ bash setup.sh
 
 To quickly get started with generating captions using **ScaleCap**, we provide an example script. Simply run the following command:
 
-```bash
-bash /fs-computility/mllm/xinglong/ScaleCap/scripts/launch_example.sh
+```
+bash scripts/launch_example.sh
 ```
 
 ### Notes
