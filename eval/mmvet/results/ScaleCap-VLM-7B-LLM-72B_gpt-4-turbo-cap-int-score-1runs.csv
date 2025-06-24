@@ -1,0 +1,2 @@
+,gen_know_rec,rec,ocr_spat,math_ocr_spat,spat_rec,ocr,math_ocr,know_rec,gen_ocr_spat_rec,gen_ocr_know_rec,ocr_spat_rec,ocr_rec,ocr_spat_know,spat_know_rec,gen_ocr_spat,math_ocr_spat_rec,total,std,runs
+VLM-7B-LLM-72B-ours-1-t0,32.3,72.2,75.8,77.9,48.3,81.7,62.7,27.8,77.5,78.8,55.7,75.0,66.7,100.0,80.0,90.0,58.8,0.0,[58.8]

@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ScaleCap"
+version = "0.1.0"
+description = "An inference-time scalable image captioning strategy that generates comprehensive and detailed image captions"
+readme = "README.md"
+requires-python = ">=3.8"
+
+dependencies = [
+  "transformers==4.47.1",
+  "accelerate==1.1.1",
+  "ninja==1.11.1.2",
+  "vllm==0.6.4.post1",
+  "huggingface-hub==0.26.3",
+  "spacy==3.7.5"
+]
+
+
+[tool.setuptools.packages.find]
+exclude = ["eval*", "scripts*"]
