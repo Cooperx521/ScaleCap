@@ -132,5 +132,5 @@ The scripts used to compute evaluation metrics are located in the [`eval`](https
 
 
 ## ❤️ Acknowledgments
-- [Open-LLaVA-NeXT](https://github.com/xiaoachen98/Open-LLaVA-NeXT): Thanks for the impressive open-source implementation of LLaVA-NeXT series.
+- [Open-LLaVA-NeXT](https://github.com/xiaoachen98/Open-LLaVA-NeXT): Thanks for the impressive open-source dataset.
 - [VLMEvalKit](https://github.com/open-compass/VLMEvalKit): the amazing open-sourced suit for evaluating various LMMs!
