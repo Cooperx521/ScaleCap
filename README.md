@@ -125,3 +125,8 @@ The inference pipeline can be found in the [`prism_benchmark`](https://github.co
 ### Evaluation Code
 
 The scripts used to compute evaluation metrics are located in the [`eval`](https://github.com/Cooperx521/ScaleCap/tree/ea96d81f0687044694a2d8a78419d9f6b48e420c/eval) directory.
+
+
+## ❤️ Acknowledgments
+- [Open-LLaVA-NeXT](https://github.com/xiaoachen98/Open-LLaVA-NeXT): Thanks for the impressive open-source implementation of LLaVA-NeXT series.
+- [VLMEvalKit](https://github.com/open-compass/VLMEvalKit): the amazing open-sourced suit for evaluating various LMMs!
