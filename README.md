@@ -102,10 +102,10 @@ This dataset contains **450,000 images** along with their corresponding **captio
 
 To reproduce the pretraining experiments presented in our paper:
 
-1. **Initialize Qwen2.5-VL**
+1. **Initialize Qwen2.5-VL.**
    Follow the steps in the notebook [`initiallize_vlm_3b.ipynb`](https://github.com/Cooperx521/ScaleCap/blob/892ad0682defa37f54833c3c4284a9d9a5c3451e/grocery_file/initiallize_vlm_3b.ipynb) to set up the Qwen2.5-VL model for training.
 
-2. **Training**
+2. **Training.**
    You can then use [LLaMAFactory](https://github.com/hiyouga/LLaMA-Factory) directly to run the training process.
 
 
