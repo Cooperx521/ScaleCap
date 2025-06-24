@@ -61,6 +61,10 @@ via Dual-Modality Debiasing</h1>
   <img src="assets/pipeline.png" alt="Logo" >
 </a>
 
+## 👨‍💻 Todo
+
+- [ ] Support more VQA benchmarks and complete evaluation.
+
 ## 🛠️ Setup
 ```
 git clone https://github.com/Cooperx521/ScaleCap.git
