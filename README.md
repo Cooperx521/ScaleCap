@@ -42,12 +42,14 @@ via Dual-Modality Debiasing</h1>
   <img src="assets/teaser.png" alt="Logo" >
 </a>
 
-<a href="">
-  <img src="assets/data.png" alt="Logo" >
-</a>
+
 
 ## 📢 News
 - 🚀 [06/25/2025] We release **ScaleCap** repository, training code and dataset.
+
+<a href="">
+  <img src="assets/data.png" alt="Logo" >
+</a>
 
 ## 💡 Highlights
 - 🔥 **A plug-and-play pipeline improving caption quality**: ScaleCap can be used simply by calling either open-source or closed-source model APIs, making it extremely convenient to use.
@@ -68,3 +70,22 @@ bash setup.sh
 ```
 
 ## ⭐️ Quick Start
+
+To quickly get started with generating captions using **ScaleCap**, we provide an example script. Simply run the following command:
+
+```bash
+bash /fs-computility/mllm/xinglong/ScaleCap/scripts/launch_example.sh
+```
+
+### Notes
+
+* In our setup, **Qwen** and its **VL series** are deployed using the [vLLM](https://github.com/vllm-project/vllm) framework.
+* We have verified that this setup works on **NVIDIA A100** GPUs.
+* If your GPU has **limited memory**, we recommend **doubling the number of devices** specified by `CUDA_VISIBLE_DEVICES` to avoid out-of-memory issues.
+
+You may need to modify the following lines in the script:
+
+* [Line 7](https://github.com/Cooperx521/ScaleCap/blob/ae2d1015ebf14c3fd7b389673a11da01119734b6/scripts/launch_example.sh#L7)
+* [Line 16](https://github.com/Cooperx521/ScaleCap/blob/ae2d1015ebf14c3fd7b389673a11da01119734b6/scripts/launch_example.sh#L16)
+
+to better suit your hardware configuration.
