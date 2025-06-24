@@ -82,12 +82,11 @@ bash /fs-computility/mllm/xinglong/ScaleCap/scripts/launch_example.sh
 * In our setup, **Qwen** and its **VL series** are deployed using the [vLLM](https://github.com/vllm-project/vllm) framework.
 * We have verified that this setup works on **NVIDIA A100** GPUs.
 * If your GPU has **limited memory**, we recommend **doubling the number of devices** specified by `CUDA_VISIBLE_DEVICES` to avoid out-of-memory issues.
-You may need to modify the following lines in the script:
+You may need to modify the following lines in the script to better suit your hardware configuration:
 
   * [Line 7](https://github.com/Cooperx521/ScaleCap/blob/ae2d1015ebf14c3fd7b389673a11da01119734b6/scripts/launch_example.sh#L7)
   * [Line 16](https://github.com/Cooperx521/ScaleCap/blob/ae2d1015ebf14c3fd7b389673a11da01119734b6/scripts/launch_example.sh#L16)
 
-to better suit your hardware configuration.
 
 
 ## Pretraining
