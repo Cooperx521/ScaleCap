@@ -34,7 +34,7 @@ via Dual-Modality Debiasing</h1>
 <div align="center"></div>
 <p align="center">
   <p>
-🌈We introduce <strong>ScaleCap</strong>, an <strong>inference-time scalable image captioning</strong> strategy that generates comprehensive and detailed image captions. With ScaleCap, we construct a dataset containing <strong>450k image-caption pairs</strong> for use by the open-source community. Our key observations highlight two <strong>inherent biases</strong> in LVLMs: <strong>multimodal bias</strong> resulting in <strong>imbalanced descriptive granularity</strong>; <strong>linguistic bias</strong> leading to hallucinated descriptions of non-existent objects. To address these issues, we propose two novel components: heuristic question answering and contrastive sentence rating. Extensive modality alignment experiments demonstrate the effectiveness of ScaleCap.
+🌈We introduce <strong>ScaleCap</strong>, an <strong>inference-time scalable image captioning</strong> strategy that generates comprehensive and detailed image captions. With ScaleCap, we construct a dataset containing <strong>450k image-caption pairs</strong> for use by the open-source community. Our key observations highlight two <strong>inherent biases</strong> in LVLMs: <strong>multimodal bias</strong> resulting in <strong>imbalanced descriptive granularity</strong>; <strong>linguistic bias</strong> leading to hallucinated descriptions of non-existent objects. To address these issues, we propose two novel components: heuristic question answering and contrastive sentence rating. Extensive experiments demonstrate the effectiveness of ScaleCap.
 
   </p>
 
@@ -110,4 +110,20 @@ To reproduce the pretraining experiments presented in our paper:
 2. **Training**
    You can then use [LLaMAFactory](https://github.com/hiyouga/LLaMA-Factory) directly to run the training process.
 
-## Pretraining
+
+## Comparing Caption Quality via VQA
+
+We evaluate caption quality by **decoupling the traditional VQA (Visual Question Answering) task**:
+
+1. First, a model generates a **caption** for the image.
+2. Then, a **language model** answers questions based solely on the generated caption.
+
+This approach allows us to assess the **informational quality and completeness** of the generated captions — if the language model can accurately answer visual questions based only on the caption, then the caption is likely high-quality.
+
+### Inference Code
+
+The inference pipeline can be found in the [`prism_benchmark`](https://github.com/Cooperx521/ScaleCap/tree/ea96d81f0687044694a2d8a78419d9f6b48e420c/prism_benchmark) directory.
+
+### Evaluation Code
+
+The scripts used to compute evaluation metrics are located in the [`eval`](https://github.com/Cooperx521/ScaleCap/tree/ea96d81f0687044694a2d8a78419d9f6b48e420c/eval) directory.
