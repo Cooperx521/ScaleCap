@@ -29,8 +29,8 @@ via Dual-Modality Debiasing</h1>
     .
     <strong>Dahua Lin</strong>
   </p>
-  <!-- 📖<a href="https://arxiv.org/abs/2503.01785">Paper</a> |
-  🤗<a href="https://huggingface.co/collections/laolao77/virft-datasets-67bc271b6f2833eccc0651df">Datasets</a> | 🤗<a href="https://huggingface.co/papers/2503.01785">Daily Paper</a></h3> -->
+  📖<a href="https://www.arxiv.org/abs/2506.19848">Paper</a> |
+  🤗<a href="https://huggingface.co/datasets/long-xing1/ScaleCap-450k">Datasets</a> | 🤗<a href="https://huggingface.co/papers/2506.19848">Daily Paper</a></h3>
 <div align="center"></div>
 <p align="center">
   <p>
