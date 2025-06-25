@@ -17,17 +17,13 @@ via Dual-Modality Debiasing</h1>
     ·
     <a href="https://li-jinsong.github.io/"><strong>Jinsong Li</strong></a>
     ·
-    <a href="https://mark12ding.github.io/"><strong>Shuangrui Ding</strong></a>
-    ·
-    <strong>Weiming Zhang</strong>
-    ·
-    <strong>Nenghai Yu</strong>
-    ·
-    <strong>Jiaqi Wang</strong>
-    .
-    <strong>Feng Wu</strong>
-    .
-    <strong>Dahua Lin</strong>
+  <a href="https://mark12ding.github.io/"><strong>Shuangrui Ding</strong></a> ·
+  <a href="https://scholar.google.com/citations?user=eTCfl6cAAAAJ&hl=en"><strong>Weiming Zhang</strong></a> ·
+  <a href="https://scholar.google.com/citations?user=7620QAMAAAAJ&hl=zh-CN"><strong>Nenghai Yu</strong></a> ·
+  <a href="https://myownskyw7.github.io/"><strong>Jiaqi Wang</strong></a> ·
+  <a href="https://scholar.google.com/citations?user=5bInRDEAAAAJ&hl=zh-CN"><strong>Feng Wu</strong></a> ·
+  <a href="http://dahua.site/"><strong>Dahua Lin</strong></a>
+
   </p>
   📖<a href="https://www.arxiv.org/abs/2506.19848">Paper</a> |
   🤗<a href="https://huggingface.co/datasets/long-xing1/ScaleCap-450k">Datasets</a> | 🤗<a href="https://huggingface.co/papers/2506.19848">Daily Paper</a></h3>
@@ -130,6 +126,14 @@ The inference pipeline can be found in the [`prism_benchmark`](https://github.co
 
 The scripts used to compute evaluation metrics are located in the [`eval`](https://github.com/Cooperx521/ScaleCap/tree/ea96d81f0687044694a2d8a78419d9f6b48e420c/eval) directory.
 
+
+
+
+## 📄 License
+![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg) ![Data License](https://img.shields.io/badge/Data%20License-CC%20By%20NC%204.0-red.svg) 
+
+**Usage and License Notices**: The data and code are intended and licensed for research use only.
+License: Attribution-NonCommercial 4.0 International It should abide by the policy of OpenAI: https://openai.com/policies/terms-of-use
 
 ## ❤️ Acknowledgments
 - [Open-LLaVA-NeXT](https://github.com/xiaoachen98/Open-LLaVA-NeXT): Thanks for the impressive open-source dataset.
