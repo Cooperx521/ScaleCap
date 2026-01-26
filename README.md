@@ -41,7 +41,7 @@ via Dual-Modality Debiasing</h1>
 
 
 ## 📢 News
-🔥 [1/27/2026] CapRL is accepted by ICLR2026! We are working on cleaning training code, and will release everything as soon as possible!
+- 🔥 [1/27/2026] ScaleCap is accepted by ICLR2026!
 - 🚀 [06/25/2025] We release **ScaleCap** repository, training code and dataset.
 
 <a href="">
