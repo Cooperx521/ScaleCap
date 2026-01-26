@@ -1,6 +1,6 @@
 <p align="center">
 <!--   <h1 align="center"><img src="assets/logo.png" width="256"></h1> -->
-  <h1 align="center">ScaleCap: Inference-Time Scalable Image Captioning
+  <h1 align="center">(ICLR 2026)ScaleCap: Inference-Time Scalable Image Captioning
 via Dual-Modality Debiasing</h1>
     <p align="center">
     <a href="https://github.com/Cooperx521"><strong>Long Xing*</strong></a>
